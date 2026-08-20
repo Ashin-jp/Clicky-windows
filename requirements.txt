@@ -1,0 +1,49 @@
+# Windows Clicky - Dependencies
+
+# UI Framework
+PySide6>=6.7.0
+
+# AI Providers
+google-genai>=1.0.0         # Gemini API (direct, no worker needed)
+groq>=0.9.0                 # Groq API (direct, no worker needed)
+httpx>=0.27.0               # HTTP client for Claude SSE streaming + web actions
+
+# Speech-to-Text
+SpeechRecognition>=3.10.0   # Google free STT (no API key)
+websockets>=12.0            # AssemblyAI streaming (optional, needs worker)
+
+# Text-to-Speech  
+edge-tts>=7.0.0             # Microsoft Edge TTS (free, no API key)
+pygame>=2.5.0               # Audio playback
+
+# Screen & Audio Capture
+mss>=9.0.0                  # Multi-monitor screenshots
+sounddevice>=0.4.7          # Microphone capture (WASAPI)
+numpy>=1.26.0               # Audio processing
+
+# Automation & Interaction
+pyautogui>=0.9.54           # Mouse/keyboard automation
+pyperclip>=1.8.0            # Clipboard access
+
+# Filesystem Monitoring
+watchdog>=4.0.0             # Folder watching (real-time file events)
+
+# Web Content Extraction
+beautifulsoup4>=4.12.0      # HTML text extraction for FETCH_URL
+
+# Utilities
+Pillow>=10.0.0              # Image processing
+pywin32>=306                # Windows API access
+python-dotenv>=1.0.0        # Load .env file for API keys
+
+# ─── Phase 1: Foundation ─────────────────────────────────────────────
+comtypes>=1.4.0             # Windows UI Automation access
+psutil>=5.9.0               # CPU/RAM/process monitoring
+
+# Packaging (optional)
+pyinstaller>=6.0.0          # Build standalone .exe
+
+# Visual Finder Dependencies
+pyttsx3>=2.90
+keyboard>=0.13.5
+

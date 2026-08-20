@@ -1,0 +1,13 @@
+{
+    "pythonVersion": "3.11",
+    "pythonPlatform": "Windows",
+    "pythonPath": "d:/clicky/.venv/Scripts/python.exe",
+    "venvPath": "d:/clicky",
+    "venv": ".venv",
+    "extraPaths": [],
+    "exclude": ["**/node_modules", "**/.venv", "**/build", "**/dist"],
+    "typeCheckingMode": "basic",
+    "reportMissingModuleSource": "none",
+    "reportMissingImports": "none",
+    "reportMissingTypeStubs": "none"
+}

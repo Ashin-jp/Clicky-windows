@@ -1,0 +1,7 @@
+name = "clicky-proxy"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[vars]
+# Set your ElevenLabs voice ID here or via: npx wrangler secret put ELEVENLABS_VOICE_ID
+ELEVENLABS_VOICE_ID = "your_voice_id_here"
